@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dummy on 测试CICD HUGO</title>
+    <link>https://themikesam.github.io/tags/dummy/</link>
+    <description>Recent content in dummy on 测试CICD HUGO</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 05 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://themikesam.github.io/tags/dummy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>https://themikesam.github.io/posts/try/</link>
+      <pubDate>Thu, 05 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://themikesam.github.io/posts/try/</guid>
+      <description>test testing 測試测试</description>
+    </item>
+    
+  </channel>
+</rss>

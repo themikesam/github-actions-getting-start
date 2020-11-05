@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://themikesam.github.io/tags/dummy/</loc>
+    <lastmod>2020-11-05T23:11:32+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://themikesam.github.io/posts/</loc>
+    <lastmod>2020-11-05T23:11:32+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://themikesam.github.io/tags/</loc>
+    <lastmod>2020-11-05T23:11:32+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://themikesam.github.io/posts/try/</loc>
+    <lastmod>2020-11-05T23:11:32+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://themikesam.github.io/</loc>
+    <lastmod>2020-11-05T23:11:32+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://themikesam.github.io/archive/</loc>
     <lastmod>2020-11-05T18:16:58+08:00</lastmod>
   </url>
@@ -23,22 +48,7 @@
   </url>
   
   <url>
-    <loc>https://themikesam.github.io/posts/</loc>
-    <lastmod>2020-11-05T18:16:58+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://themikesam.github.io/tags/</loc>
-    <lastmod>2020-11-05T18:16:58+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://themikesam.github.io/tags/theme/</loc>
-    <lastmod>2020-11-05T18:16:58+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://themikesam.github.io/</loc>
     <lastmod>2020-11-05T18:16:58+08:00</lastmod>
   </url>
   
