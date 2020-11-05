@@ -31,21 +31,16 @@ jobs:
       - name: Install package
         run: npm install -g hugo-lunr-zh
 
-      - name: Run hugo-lunr export
-        run: hugo-lunr-zh --context-path ./posts/ --output ./public/index.json --dir ./content/posts/ --matter-delims +++ --matter-type json --extensions .md,.html
-      
+      - name: Run hugo-lunr
+        run: hugo-lunr-zh -c /posts -r true -o public/index.json -d content/posts/ -s true --matter-delims +++ --matter-type json --ext .md,.html
+
       - name: check
         run: du -a .
 
-      - name: Run hugo-lunr
-        run: hugo-lunr-zh --output ./public/index.json --dir ./content/posts/ --matter-delims +++ --matter-type json --extensions .md,.html
-
-      - name: check 2
-        run: du -a .
       - name: Run hugo-lunr 2
-        run: hugo-lunr-zh -d ./content/posts/ -o ./public/index2.json --matter-delims --- --matter-type yaml
+        run: hugo-lunr-zh -d ./content/posts/ -o ./public/index.json --matter-delims --- --matter-type yaml
 
-      - name: check 3
+      - name: check
         run: du -a .
 
 
