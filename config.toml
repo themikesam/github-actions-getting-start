@@ -1,4 +1,4 @@
-baseURL = "https://themikesam.github.io/"
+baseURL = "https://themikesam.github.io/github-actions-getting-start"
 languageCode = "zh-cn"
 title = "测试CICD HUGO"
 
