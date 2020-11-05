@@ -1,12 +1,11 @@
 name: First example
-on:            
+on:
   push:
     branches:
       - master
-
 jobs:
   hello-actions:
-    run-on: ubuntu-18.04
+    runs-on: ubuntu-18.04
     name: hello-actions
     steps:
       # 每一个不走步骤跟随一个 name ，还有一些其他的参数。
