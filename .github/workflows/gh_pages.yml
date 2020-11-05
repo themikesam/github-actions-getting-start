@@ -32,8 +32,11 @@ jobs:
         run: npm install -g hugo-lunr-zh
 
       - name: Run hugo-lunr export
-        run: hugo-lunr-zh --output public/index.json --dir content/posts --matter-delims +++ --matter-type json --extensions .md,.html > check.txt
+        run: echo `hugo-lunr-zh --output public/index.json --dir content/posts --matter-delims +++ --matter-type json --extensions .md,.html`
       
+      - name: check
+        run: du -a .
+        
       - name: Run hugo-lunr
         run: hugo-lunr-zh --output public/index.json --dir content/posts --matter-delims +++ --matter-type json --extensions .md,.html
       - name: Run hugo-lunr 2
