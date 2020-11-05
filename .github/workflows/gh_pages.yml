@@ -31,8 +31,14 @@ jobs:
       - name: Install package
         run: npm install -g hugo-lunr-zh
 
+      - name: Run hugo-lunr export
+        run: hugo-lunr-zh --output public/index.json --dir content/posts --matter-delims +++ --matter-type json --extensions .md,.html > check.txt
+      
       - name: Run hugo-lunr
         run: hugo-lunr-zh --output public/index.json --dir content/posts --matter-delims +++ --matter-type json --extensions .md,.html
+      - name: Run hugo-lunr 2
+        run: hugo-lunr-zh -d content/posts/ -o public/index.json --matter-delims --- --matter-type yaml
+
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
