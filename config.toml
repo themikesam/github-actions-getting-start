@@ -1,6 +1,6 @@
-baseURL = "https://example.org"
+baseURL = "https://themikesam.github.io/github-actions-getting-start/"
 languageCode = "zh-cn"
-title = "Testing"
+title = "测试CICD HUGO"
 
 
 theme = "canoe"
