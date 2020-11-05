@@ -32,7 +32,7 @@ jobs:
         run: npm install -g hugo-lunr-zh
 
       - name: Run hugo-lunr
-        run: hugo-lunr-zh -c /posts -r false -o public/index.json -d content/posts/ -s true --matter-delims +++ --matter-type json --ext .md,.html
+        run: hugo-lunr-zh
 
       - name: check
         run: du -a .
