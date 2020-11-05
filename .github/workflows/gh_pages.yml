@@ -34,15 +34,6 @@ jobs:
       - name: Run hugo-lunr
         run: hugo-lunr -i content -o public/index.json
 
-      - name: check
-        run: du -a .
-
-      - name: Run hugo-lunr 2
-        run: hugo-lunr-zh -d ./content/posts/ -o ./public/index.json --matter-delims --- --matter-type yaml -r false
-
-      - name: check
-        run: du -a .
-
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
