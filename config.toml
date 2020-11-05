@@ -1,4 +1,4 @@
-baseURL = "https://themikesam.github.io/github-actions-getting-start/"
+baseURL = "https://themikesam.github.io/"
 languageCode = "zh-cn"
 title = "测试CICD HUGO"
 
@@ -81,14 +81,6 @@ hasCJKLanguage = true
 [[menu.friend]]
   name = "Frantic1048"
   url = "https://frantic1048.logdown.com/"
-
-[[menu.friend]]
-  name = "HclMaster"
-  url = "https://hclmaster.github.io/"
-
-[[menu.friend]]
-  name = "WANG Hsü-Tung"
-  url = "https://whst.github.io/"
 
 
 # 社交账号 Social Network
