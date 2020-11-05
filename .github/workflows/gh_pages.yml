@@ -22,6 +22,18 @@ jobs:
       - name: Build
         run: hugo
 
+      - name: Prepare npm
+        uses: actions/setup-node@v2
+        with:
+            node-version: '12'
+            check-latest: true
+        
+      - name: Install package
+        run: npm install -D hugo-lunr-zh
+    
+      - name: Run hugo-lunr
+        run: hugo-lunr-zh -o docs/lunr.json --matter-delims --- --matter-type yaml
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
