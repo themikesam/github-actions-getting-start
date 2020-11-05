@@ -23,14 +23,14 @@ jobs:
         run: hugo
 
       - name: Prepare npm
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v2-beta
         with:
             node-version: '12'
             check-latest: true
-        
+
       - name: Install package
-        run: npm install -D hugo-lunr-zh
-    
+        run: npm install -g hugo-lunr-zh
+
       - name: Run hugo-lunr
         run: hugo-lunr-zh -o docs/lunr.json --matter-delims --- --matter-type yaml
 
